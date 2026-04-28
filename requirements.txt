@@ -1,0 +1,51 @@
+# Core
+openai>=1.61.0,<2.0.0
+numpy>=1.26.4,<2.0.0
+requests>=2.33.1
+
+# UI
+streamlit>=1.56.0
+
+# Vision / Pose
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+Pillow>=12.2.0
+matplotlib>=3.8.2
+
+# Audio
+gTTS>=2.3.2
+sounddevice>=0.4.6
+soundfile>=0.12.1
+pygame>=2.5.2
+
+# Multi-Agent / LLM
+crewai==0.102.0
+langchain==0.3.19
+langchain-openai==0.3.7
+langchain-groq
+litellm==1.60.2
+langsmith<0.2
+
+# OpenTelemetry (pinned to work with protobuf<5 / mediapipe)
+opentelemetry-proto==1.27.0
+opentelemetry-exporter-otlp-proto-common==1.27.0
+opentelemetry-exporter-otlp-proto-grpc==1.27.0
+opentelemetry-exporter-otlp-proto-http==1.27.0
+
+# Protobuf (mediapipe requires <5)
+protobuf>=4.25.3,<5
+
+# Vector DB / RAG
+faiss-cpu
+pysqlite3-binary; platform_system != "Windows"
+
+# Database (Long-Term & Short-Term Memory)
+psycopg2-binary
+redis
+
+# Data / ML
+pandas>=2.0.0
+scikit-learn
+
+# Utilities
+python-dotenv>=1.0.0
