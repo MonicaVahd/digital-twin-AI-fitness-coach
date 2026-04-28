@@ -1,4 +1,4 @@
-# Digital Twin AI Fitness Coach
+# Digital Twin AI Fitness Coach (DTAIFC)
 
 Streamlit-based multimodal fitness coaching app with:
 - pose analysis (MediaPipe + OpenPose subprocess path),
@@ -40,4 +40,4 @@ python -m streamlit run app.py
 
 ## Notes
 - OpenPose is executed through local binary paths configured in `app.py`.
-- Do not commit `.env`, generated media, caches, or build artifacts.
+- Do not commit `.env`, generated media, caches, or build artifacts. 
